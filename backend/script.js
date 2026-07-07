@@ -14,5 +14,10 @@
 
 // access property of another file 
 
-const someValue = require("./math") ;
-console.log(someValue) ; 
+// const someValue = require("./math") ;
+// console.log(someValue) ; 
+
+// importing from fruits directory 
+
+const info = require("./fruit") ; 
+console.log(info) ;
